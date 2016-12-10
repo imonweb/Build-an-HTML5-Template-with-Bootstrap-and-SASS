@@ -4,17 +4,5 @@
 /*  Version: 0.0.1 				  */
 /***********************************************************************************************/
 /*  Base - Base styles, variables, mixins, etc. */
-@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Bree+Serif");
-/* line 4, ../components/sass/base/_base.scss */
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 160%;
-  background: #EAE3CB;
-  color: #0A2933;
-}
-
 /*  Modules - Individual site components */
 /*  Layouts - Page layout styles */
