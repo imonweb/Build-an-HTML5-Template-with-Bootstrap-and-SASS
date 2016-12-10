@@ -28,7 +28,7 @@ module.exports = function(grunt){
 				}, //scripts
 
 					sass: 	{
-						files: 	['_/components/sass/*.scss'],
+						files: 	['_/components/sass/*.scss', '_/components/sass/base/*.scss','_/components/sass/layouts/*.scss','_/components/sass/modules/*.scss'],
 						tasks: 	['compass:dev']
 						
 
