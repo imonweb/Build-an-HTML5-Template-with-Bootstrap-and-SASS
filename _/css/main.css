@@ -4,5 +4,63 @@
 /*  Version: 0.0.1 				  */
 /***********************************************************************************************/
 /*  Base - Base styles, variables, mixins, etc. */
+/*  Font Colors */
+/*  Background Colors */
+/*  mixins */
+/* line 1, ../components/sass/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, ../components/sass/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 2, ../components/sass/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 9, ../components/sass/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 13, ../components/sass/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 17, ../components/sass/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
 /*  Modules - Individual site components */
 /*  Layouts - Page layout styles */
+/*  Navbar */
+/* line 3, ../components/sass/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+/* line 12, ../components/sass/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
