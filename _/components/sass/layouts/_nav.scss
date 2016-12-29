@@ -16,5 +16,37 @@
 		padding-bottom: 24px;
 		padding-top: 20px;
 	}
+
+	.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:focus {
+		background-color: $primary-color;
+		// color: #fff;
+		color: #00aff0;
+	}
+
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #00aff0;
+	}
+
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: $primary-color;
+	}
 }
 
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background: #00aff0 !important;
+    color: #fff !important;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+ 
+.navbar-toggle {
+   
+    background-color: #444;
+    
+}
+ 
